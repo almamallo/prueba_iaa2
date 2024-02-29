@@ -16,7 +16,7 @@ class GestionEmpleados(object):
         self.menu = """
 Menú de opciones
 
-(1) Añadir empleado
+(1) Añadir empleado/a
 (2) Borrar empleado
 (3) Mostrar lista empleados
 (4) Mostrar detalle de un empleado
