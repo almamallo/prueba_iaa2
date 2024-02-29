@@ -17,7 +17,7 @@ class GestionEmpleados(object):
 Menú de opciones
 
 (1) Añadir empleado/a
-(2) Borrar empleado
+(2) Borrar empleado/a
 (3) Mostrar lista empleados
 (4) Mostrar detalle de un empleado
 (5) Mostrar empleados cumpleaños
@@ -32,10 +32,7 @@ Elige una opción: """
             sueldo=2000, complemento=200, anho_alta=2010)
 
         emp2 = EmpleadoTemporal(nif="33.345.879Z", 
-            nombre="Lucía López Rodríguez", 
-            fecha_nacimiento="02/01/1990",
-            sueldo=2000, 
-            fecha_alta="02/01/2021",
+         
             fecha_baja="31/12/2021")
 
         self.empleados["32.234.234M"] = emp1
